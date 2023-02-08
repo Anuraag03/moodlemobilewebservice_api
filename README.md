@@ -33,6 +33,10 @@ The purpose was to build a python script that can scrape documentation of the Mo
   
   ![localhost main page](https://user-images.githubusercontent.com/95640377/217570136-32ae6ba1-dddc-4713-99bb-0a506c71f668.jpg)
   - here you can preview all the API endpoints / documentation titles by going to    http://localhost:8000/index
+  - before you can actually view all the documentation titles you will be promted to provide username and password authentication ; this username and password is the same as your gmail and gmail password(BITS account)
+  
+  ![authentication](https://user-images.githubusercontent.com/95640377/217602709-6361acdf-5c78-4cc9-9bfb-41c2318ca9d8.jpg)
+  
   
 ![localhostindex](https://user-images.githubusercontent.com/95640377/217571198-e844589d-083f-418b-9b6c-cdc61cedb800.jpg)
 - Now you can search and paginate through all the different api end points
@@ -43,5 +47,5 @@ The purpose was to build a python script that can scrape documentation of the Mo
   
   ![documentation](https://user-images.githubusercontent.com/95640377/217572403-a2c6a4f3-6c48-4cee-91c5-756f162eb6bb.jpg)
   
-  ## Future Updates:
-  - Adding email and password authentication  OAuth2
+ 
+
