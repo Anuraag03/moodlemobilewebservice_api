@@ -15,10 +15,33 @@ The purpose was to build a python script that can scrape documentation of the Mo
   uvicorn moodle_api:app 
   ```
   or
+
   ```
   python -m uvicorn moodle_api:app 
   ```
   - The Chrome browser opens automatically and starts scraping the documentation 
   - Go back to the IDE and wait for confirmation that data has been scraped
   
+  ![server runnning](https://user-images.githubusercontent.com/95640377/217568743-c38e835b-253a-4aed-94a3-2e08136caabd.jpg)
+  -  Now go to the link displayed in your terminal
   
+  ![server runnning url](https://user-images.githubusercontent.com/95640377/217569390-8741ebe5-4535-4e9c-9407-a2fd3454ff65.jpg)
+  
+  or
+  
+  - go to http://localhost:8000
+  
+  ![localhost main page](https://user-images.githubusercontent.com/95640377/217570136-32ae6ba1-dddc-4713-99bb-0a506c71f668.jpg)
+  - here you can preview all the API endpoints / documentation titles by going to    http://localhost:8000/index
+  
+![localhostindex](https://user-images.githubusercontent.com/95640377/217571198-e844589d-083f-418b-9b6c-cdc61cedb800.jpg)
+- Now you can search and paginate through all the different api end points
+  - Example: if you want to view the documentation o f "block_recentlyaccesseditems_get_recent_items"
+  you can do so by going to http://localhost:8000/index/block_recentlyaccesseditems_get_recent_items
+  
+  - Tip: If you see a blank white screen instead of the required documentation try refreshing the page.
+  
+  ![documentation](https://user-images.githubusercontent.com/95640377/217572403-a2c6a4f3-6c48-4cee-91c5-756f162eb6bb.jpg)
+  
+  ## Future Updates:
+  - Adding email and password authentication  OAuth2
